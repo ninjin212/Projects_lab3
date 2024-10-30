@@ -1,0 +1,127 @@
+/* Бүх аппликейшнд хэрэглэгдэх үндсэн загвар */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* App Component-ийн үндсэн*/
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Гарчиг */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Хайлтын хэсэг */
+input[type="text"] {
+  width: calc(100% - 120px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #2949be;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #2949be;
+}
+
+/* Улс жагсаалт */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+li:hover {
+  background-color: #f1f1f1;
+}
+
+li span {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Хуудаслалт */
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  background-color: white;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #2949be;
+  color: white;
+}
+
+.pagination button:hover {
+  background-color: #ddd;
+}
+
+/* Улсын дэлгэрэнгүй мэдээлэл */
+.country-detail {
+  text-align: left;
+  padding: 20px;
+}
+
+.country-detail h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.country-detail p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.country-detail a {
+  color: #2949be;
+  text-decoration: none;
+}
+
+.country-detail a:hover {
+  text-decoration: underline;
+}
